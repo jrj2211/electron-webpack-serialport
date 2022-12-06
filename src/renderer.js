@@ -26,8 +26,10 @@
  * ```
  */
 
+import { SerialPort } from "serialport";
 import "./index.css";
 
+console.log(SerialPort.list);
 console.log(
   '👋 This message is being logged by "renderer.js", included via webpack'
 );
